@@ -9,8 +9,5 @@
   "main": "Orchestrator.js",
   "name": "node-pluginsmanager-plugin-test",
   "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Psychopoulet/node-pluginsmanager-plugin-test"
-  }
+  "github": "git://github.com/Psychopoulet/node-pluginsmanager-plugin-test"
 }
