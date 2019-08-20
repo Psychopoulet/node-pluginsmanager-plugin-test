@@ -1,14 +1,14 @@
 {
+  "name": "node-pluginsmanager-plugin-test",
+  "version": "1.0.0",
+  "description": "A test for node-pluginsmanager",
+  "main": "Orchestrator.js",
   "author": "Sébastien VIDAL",
   "core": true,
   "dependencies": {
   	"simpletts": "2.4.0"
   },
-  "description": "A test for node-pluginsmanager",
   "license": "ISC",
-  "main": "Orchestrator.js",
-  "name": "node-pluginsmanager-plugin-test",
-  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/Psychopoulet/node-pluginsmanager-plugin-test"

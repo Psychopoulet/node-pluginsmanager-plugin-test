@@ -1,0 +1,35 @@
+{
+	"openapi": "3.0.2",
+	"info": {
+		"title": "node-pluginsmanager-plugin-test",
+		"version": "1.0.0",
+		"description": "A test for node-pluginsmanager",
+		"contact": {
+			"name": "Sébastien VIDAL",
+			"url": "https://github.com/Psychopoulet/node-pluginsmanager-plugin-test/issues"
+		},
+		"license": {
+			"name": "ISC",
+			"url": "https://en.wikipedia.org/wiki/ISC_license"
+		}
+	},
+	"paths": {
+		"/node-pluginsmanager-plugin-test/api/test": {
+			"get": {
+				"description": "",
+				"summary": "Simple API test for Server class",
+				"parameters": [],
+				"responses": {
+					"201": {
+						"description": "Everything is fine"
+					}
+				}
+			}
+		}
+	},
+	"servers": [],
+	"externalDocs": {
+		"description": "Find out more about this API",
+		"url": "https://github.com/Psychopoulet/node-pluginsmanager-plugin-test#readme"
+	}
+}
