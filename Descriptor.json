@@ -17,8 +17,8 @@
 		"/node-pluginsmanager-plugin-test/api/test": {
 			"get": {
 				"description": "",
+				"operationId": "test",
 				"summary": "Simple API test for Server class",
-				"parameters": [],
 				"responses": {
 					"201": {
 						"description": "Everything is fine"
@@ -27,7 +27,6 @@
 			}
 		}
 	},
-	"servers": [],
 	"externalDocs": {
 		"description": "Find out more about this API",
 		"url": "https://github.com/Psychopoulet/node-pluginsmanager-plugin-test#readme"

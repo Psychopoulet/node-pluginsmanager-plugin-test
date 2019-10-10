@@ -15,8 +15,6 @@ module.exports = class MediatorPluginsManagerPluginTest extends Mediator {
 			" => [PluginsManagerPluginTest|Mediator] - init" + (data ? " with \"" + data + "\" data" : "")
 		);
 
-		return Promise.resolve();
-
 	}
 
 	_releaseWorkSpace (data) {
@@ -25,8 +23,10 @@ module.exports = class MediatorPluginsManagerPluginTest extends Mediator {
 			" => [PluginsManagerPluginTest|Mediator] - release" + (data ? " with \"" + data + "\" data" : "")
 		);
 
-		return Promise.resolve();
+	}
 
+	test () {
+		return Promise.resolve();
 	}
 
 };
