@@ -15,6 +15,8 @@ module.exports = class ServerPluginsManagerPluginTest extends Server {
 			" => [PluginsManagerPluginTest|Server] - init" + (data ? " with \"" + data + "\" data" : "")
 		);
 
+		return Promise.resolve();
+
 	}
 
 	_releaseWorkSpace (data) {
@@ -22,6 +24,8 @@ module.exports = class ServerPluginsManagerPluginTest extends Server {
 		(0, console).log(
 			" => [PluginsManagerPluginTest|Server] - release" + (data ? " with \"" + data + "\" data" : "")
 		);
+
+		return Promise.resolve();
 
 	}
 

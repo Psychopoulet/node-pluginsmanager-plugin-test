@@ -32,6 +32,8 @@ module.exports = class OrchestratorPluginsManagerPluginTest extends Orchestrator
 			" => [PluginsManagerPluginTest|Orchestrator] - init" + (data ? " with \"" + data + "\" data" : "")
 		);
 
+		return Promise.resolve();
+
 	}
 
 	_releaseWorkSpace (data) {
@@ -39,6 +41,8 @@ module.exports = class OrchestratorPluginsManagerPluginTest extends Orchestrator
 		(0, console).log(
 			" => [PluginsManagerPluginTest|Orchestrator] - release" + (data ? " with \"" + data + "\" data" : "")
 		);
+
+		return Promise.resolve();
 
 	}
 
@@ -48,6 +52,8 @@ module.exports = class OrchestratorPluginsManagerPluginTest extends Orchestrator
 			" => [PluginsManagerPluginTest|Orchestrator] - install" + (data ? " with \"" + data + "\" data" : "")
 		);
 
+		return Promise.resolve();
+
 	}
 
 	update (data) {
@@ -56,6 +62,8 @@ module.exports = class OrchestratorPluginsManagerPluginTest extends Orchestrator
 			" => [PluginsManagerPluginTest|Orchestrator] - update" + (data ? " with \"" + data + "\" data" : "")
 		);
 
+		return Promise.resolve();
+
 	}
 
 	uninstall (data) {
@@ -63,6 +71,8 @@ module.exports = class OrchestratorPluginsManagerPluginTest extends Orchestrator
 		(0, console).log(
 			" => [PluginsManagerPluginTest|Orchestrator] - uninstall" + (data ? " with \"" + data + "\" data" : "")
 		);
+
+		return Promise.resolve();
 
 	}
 
